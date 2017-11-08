@@ -1,0 +1,26 @@
+body {
+	margin:0;
+	padding:0;
+	
+}
+
+.logo {
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://www.osmais.com/wallpapers/201206/cubos-pretos-azuis-wallpaper-1280x720.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.play{
+	width: 80%;
+	height: 80vh;
+	align-content: center;
+}
+
+
+
+.trailer {
+
+}
+
