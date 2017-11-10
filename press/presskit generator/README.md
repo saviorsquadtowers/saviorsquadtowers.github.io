@@ -1,10 +1,14 @@
-You will need a terminal and Node.js.
+## You will need a terminal and Node.js.
 
 The simplest way to install presskit.html is to use npm (bundled with Node.js):
 
-	npm install -g presskit
+```shell
+npm install -g presskit
+```
 
 Then open a cmd window and
 Run this command:
 
-	presskit build
+```
+presskit build
+```
