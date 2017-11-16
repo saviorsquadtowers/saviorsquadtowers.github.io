@@ -41,8 +41,12 @@ body {
 
 
 .footer {
+    width: 100%;
+    height: 10vh;
+}
 
-
+.footerItem{
+    margin: auto;
 }
 
 .socialMediaButton {
