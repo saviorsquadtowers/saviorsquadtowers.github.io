@@ -6,16 +6,27 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 </head>
-
 <body bgcolor="#1f1f1f" >
 
+
+
+<video poster="imgs/bgvideoPoster.png" id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="bgvideo.webm" type="video/webm">
+<source src="bgvideo.mp4" type="video/mp4">
+</video>
+<div id="polina">
+
 	<div class="section logo"></div>
+
 	<div class="section trailer">
 		<iframe width="420px" height="315px" src="https://www.youtube.com/embed/18UBxEOFoVs" style="margin: auto;width: 60vw;height: 37vw;"></iframe>
 	</div>
+
 	<div class="section play">
 		<div class="playButton">COMING SOON ON <a href="https://www.airconsole.com">AIRCONSOLE.COM</a></div>
 	</div>
+
 	<div class="section footer">
 		<div class="footerItem">
 			<a href="http://saviorsquadtowers.github.io/press">PRESSKIT</a>
@@ -26,6 +37,8 @@
 	
 	</div>
 
-</body>
 
+
+
+</body>
 </html>
