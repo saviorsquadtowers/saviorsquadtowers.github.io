@@ -36,11 +36,10 @@ body {
     border: 2vw solid #00000000;
     border-radius: 6vh;
     width: 32vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
     cursor: pointer;
     background-color: #AAEE00;
 }
+
 .playButton:hover
 {
     background-color: white;
