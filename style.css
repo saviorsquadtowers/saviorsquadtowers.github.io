@@ -61,14 +61,19 @@ a, a:visited, a:hover, a:active {
     background-color: white;
 }
 
-.whatIsLeft{
+.about {
     width: 84%;
     height: 16%;
-    display: inline-block;
-    text-align: left;
     padding-left: 8%;
     padding-right: 8%;
     color: white;
+}
+
+.sideInfo {
+    margin: auto;
+    text-align: left;
+    width: 44%;
+    display: inline-block;
 }
 
 /* NEWSLETTER */
@@ -109,7 +114,7 @@ input, textarea {
     padding-left: 10%;
     padding-right: 10%;
     color: white;
-    font-size: 1.6vw;
+    font-size: 1.7vw;
 }
 
 .footerItem{

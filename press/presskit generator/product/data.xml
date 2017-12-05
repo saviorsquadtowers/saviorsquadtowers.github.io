@@ -24,7 +24,7 @@
 <!--
   Use a `<product>` or `<game>` tag.
 -->
-<product>
+<game>
 
   <!-- This guide is not yet written. -->
   <title>Savior Squad: Towers</title>
@@ -52,21 +52,21 @@
 
   <prices>
     <price>
-      <currency>FREE</currency>
-      <value>-</value>
-    </price>
-    <!-- <price>
-      <currency>USD</currency>
-      <value>20</value>
+      <currency>FREE to play</currency>
+      <value>$0</value>
     </price>
     <price>
+      <currency>HERO Subscription (skins)</currency>
+      <value>$2.90</value>
+    </price>
+    <!--<price>
       <currency>GBP</currency>
       <value>16</value>
     </price>
     <price>
       <currency>JPY</currency>
       <value>2300</value>
-    </price> -->
+    </price>-->
   </prices>
 
   <description>
@@ -74,17 +74,14 @@
   </description>
 
   <history>
-    
-    Add some storytelling here. Not the scenario of your game, but rather some backgrounds behind the creation process: why are you making this game? Most projects starts with a cool story.
+    Everyone knows that cats rule the world. In Savior Squad: Towers, aliens are now trying to get all cows from the earth! Unacceptable! Without cows, how the world will have milk! Here is where Savior Squad comes, in this towers defense game with gameplay focused entire on fun (and not lootboxes), the game offers unique heroes that can be either a cat with weapons that will play like a Third Person Shooter (running in the field shooting and trowing bombs) or like a styilish swordmaster (slashing enemies in air and smashing then on the ground) or even a cat with powerfull magic powers.
   </history>
 
   <features>
-    <feature>List some "Key Sellings Points" to grab player's attention.</feature>
-    <feature>Don't be too generic ("pixel art graphics!"), don't be too pretentious ("most incredible game experience!").</feature>
-    <feature>Also, people like numbers, so you can add some (450 weapons, hundreds of levels, dozens of hours of playtime!).</feature>
-    <feature>Need ideas? Maybe explain some game modes?</feature>
-    <feature>It would be a nice place to say something about multiplayer, if you have some.</feature>
-    <feature>Have you translated your game? (You probably should btw.)</feature>
+    <feature>Play the game using only the browser in your computer and in your smartphone (no need to install anything!).</feature>
+    <feature>Unlimited players can join the game at anytime!</feature>
+    <feature>It's just as much fun on your own as it is in a team!</feature>
+    <feature>Play with... Cats!</feature>
   </features>
 
   <trailers>
@@ -98,14 +95,14 @@
     </trailer>
   </trailers>
 
-  <widgets>
-    <!-- <appstore>950812012</appstore> -->
-    <!-- <playstore>com.noodlecake.altosadventure</playstore> -->
-    <!-- <steam>347160</steam> -->
-    <!-- <humble>steredenn/7SDLfk23hw</humble> -->
-    <!-- <itch>27992</itch> -->
+  <!--<widgets>
+     <appstore>950812012</appstore> 
+     <playstore>com.noodlecake.altosadventure</playstore> 
+     <steam>347160</steam> 
+     <humble>steredenn/7SDLfk23hw</humble> 
+     <itch>27992</itch> 
     <bandcamp>1135613467</bandcamp>
-  </widgets>
+  </widgets>-->
 
   <awards>
     <award>
@@ -157,7 +154,7 @@
     <credit>
       <person>Bruno Sampaio</person>
       <website>https://soundcloud.com/user-317329802</website>
-      <role>Musician, Freelancer</role>
+      <role>Musician, Sound Designer - N27</role>
     </credit>
     <credit>
       <person>Anne Calamucci</person>
@@ -182,4 +179,4 @@
   </contacts>
 
 <!-- All done! 🍾 -->
-</product>
+</game>
