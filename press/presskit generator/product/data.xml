@@ -27,35 +27,35 @@
 <product>
 
   <!-- This guide is not yet written. -->
-  <title>My Super Game</title>
-  <website>http://pizzaburger.studio/mysupergame</website>
+  <title>Savior Squad: Towers</title>
+  <website>https://saviorsquadtowers.github.io</website>
 
   <press-copy-request>
-    http://pizzaburger.studio/mysupergame/request/
+    https://saviorsquadtowers.github.io/press
   </press-copy-request>
 
   <release-dates>
-    <release-date>04 Feb, 2016</release-date>
-    <release-date>10 Oct, 2016</release-date>
+    <release-date>25 May, 2018</release-date>
+    <!-- <release-date>10 Oct, 2016</release-date> -->
   </release-dates>
 
   <platforms>
     <platform>
-      <name>PC / Mac</name>
-      <link>http://itch.io/</link>
+      <name>AirConsole (Web)</name>
+      <link>http://airconsole.com</link>
     </platform>
-    <platform>
+    <!-- <platform>
       <name>Steam</name>
       <link>http://steampowered.com/</link>
-    </platform>
+    </platform> -->
   </platforms>
 
   <prices>
     <price>
-      <currency>EUR</currency>
-      <value>20</value>
+      <currency>FREE</currency>
+      <value>-</value>
     </price>
-    <price>
+    <!-- <price>
       <currency>USD</currency>
       <value>20</value>
     </price>
@@ -66,14 +66,15 @@
     <price>
       <currency>JPY</currency>
       <value>2300</value>
-    </price>
+    </price> -->
   </prices>
 
   <description>
-    Here goes a quick description of your product or game. Be concise and explain in very few words the concept or the gameplay and why it's really cool and why everyone should use or play it.
+    A special squad formed by cats are here to save the world from aliens! Unlimited players can join in that coop tower defense game where you play on your brownser and control with your smartphone!
   </description>
 
   <history>
+    
     Add some storytelling here. Not the scenario of your game, but rather some backgrounds behind the creation process: why are you making this game? Most projects starts with a cool story.
   </history>
 
@@ -89,108 +90,94 @@
   <trailers>
     <trailer>
       <name>Release Trailer</name>
-      <youtube>EtXajayBLzw</youtube>
+      <youtube>18UBxEOFoVs</youtube>
     </trailer>
     <trailer>
-      <name>Gameplay Video #2</name>
-      <youtube>EPNK1j3TMjU</youtube>
-    </trailer>
-    <trailer>
-      <name>Early Access Trailer</name>
-      <youtube>EtyQMcc19xY</youtube>
+      <name>Podcast sobre o jogo</name>
+      <youtube>18UBxEOFoVs</youtube>
     </trailer>
   </trailers>
 
   <widgets>
-    <appstore>950812012</appstore>
-    <playstore>com.noodlecake.altosadventure</playstore>
-    <steam>347160</steam>
-    <humble>steredenn/7SDLfk23hw</humble>
-    <itch>27992</itch>
+    <!-- <appstore>950812012</appstore> -->
+    <!-- <playstore>com.noodlecake.altosadventure</playstore> -->
+    <!-- <steam>347160</steam> -->
+    <!-- <humble>steredenn/7SDLfk23hw</humble> -->
+    <!-- <itch>27992</itch> -->
     <bandcamp>1135613467</bandcamp>
   </widgets>
 
   <awards>
     <award>
-      <description>Game of the year without a doubt</description>
-      <info>Saint-Père-Marc-En-Poulet (France), 04 February, 2016</info>
-    </award>
-    <award>
-      <description>Best soundtrack</description>
-      <info>A great game festival (World), 01 October, 2015</info>
-    </award>
-    <award>
-      <description>Best MYGAMENGINE game</description>
-      <info>Deep into the woods (Forest), 31 March, 2014</info>
+      <description>Participated on AirConsole Dev Contest 2017</description>
+      <info>AirConsole Dev Contest 2017, 30 October, 2017</info>
     </award>
   </awards>
 
   <quotes>
     <quote>
-      <description>This is my favorite game of all time.</description>
-      <name>Mum</name>
-      <website>At home</website>
-      <link>http://at.home/</link>
+      <description>Esse jogo é viajado demais kkkkkkkkkkkkkkkkk, vai ser um jogão!!!﻿</description>
+      <name>Victor Praxedes</name>
+      <website>Comment on first podcast about the game</website>
+      <link>https://www.youtube.com/watch?v=18UBxEOFoVs</link>
     </quote>
     <quote>
-      <description>A very serious quote you're very proud of by someone you respect.</description>
-      <name>Master</name>
-      <website>Master's website</website>
-      <link>http://mast.er/</link>
+      <description>O Chris se aliou aos gatos na dominação mundial! kkk ele agora vai fazer um jogo com eles pra dominar o mundo! Vamos pra rua! kkk﻿</description>
+      <name>Gabriel Alves</name>
+      <website>Comment on first podcast about the game</website>
+      <link>https://www.youtube.com/watch?v=18UBxEOFoVs</link>
     </quote>
     <quote>
-      <description>10/10 would play it again and again.</description>
-      <name>A friendly anonymous Steam reviewer</name>
-      <website>Steam review</website>
-      <link>http://steam.review/</link>
+      <description>kkkkkkkkk mano mt engraçado esse treco</description>
+      <name>Anne Calamucci ('3D Artist of Savior Squad: Towers' when first time heard about the project.)</name>
+      <website>Visit her Artstation</website>
+      <link>https://www.artstation.com/annecalamucci</link>
     </quote>
   </quotes>
 
   <additionals>
     <additional>
       <title>Original Soundtrack (OST)</title>
-      <description>Composed by an awesome musician. Listen for free, download for $3 at</description>
-      <link>http://zandernoriega.bandcamp.com/album/steredenn-original-soundtrack</link>
+      <description>Fully composed by Bruno Sampaio, an awesome musician. Check his other creations on</description>
+      <link>https://soundcloud.com/user-317329802</link>
     </additional>
     <additional>
       <title>Release announcement</title>
       <description>Announcement are exciting, so we usually make blog posts or news about it on</description>
-      <link>http://pixelnest.io/journal/</link>
+      <link>http://facebook.com/saviorsquadtowers</link>
     </additional>
   </additionals>
 
   <credits>
     <credit>
-      <person>Krokmou</person>
-      <role>Bot Leader, Game Designer, Pixelnest Studio</role>
+      <person>Christopher Hernandez</person>
+      <website>https://chrisdbhr.wordpress.com</website>
+      <role>Programmer, Developer, Writer, Marketing, Director, and  - N27</role>
     </credit>
     <credit>
-      <person>Hiccup</person>
-      <role>Developer, Pixelnest Studio</role>
-    </credit>
-    <credit>
-      <person>Astrid</person>
-      <website>http://www.astridsupergame.com</website>
+      <person>Bruno Sampaio</person>
+      <website>https://soundcloud.com/user-317329802</website>
       <role>Musician, Freelancer</role>
+    </credit>
+    <credit>
+      <person>Anne Calamucci</person>
+      <website>https://www.artstation.com/annecalamucci</website>
+      <role>3D Artist, Writer - N27</role>
     </credit>
   </credits>
 
   <contacts>
     <contact>
-      <name>Inquiries</name>
-      <mail>mysupergame@pizzaburger.studio</mail>
-    </contact>
-    <contact>
-      <name>Twitter</name>
-      <link>https://twitter.com/pizzaburgerstudio</link>
+      <name>Contact</name>
+      <mail>saviorsquadtowers@gmail.com</mail>
     </contact>
     <contact>
       <name>Facebook</name>
-      <link>https://facebook.com/pizzaburgerstudio</link>
+      <link>https://facebook.com/saviorsquadtowers</link>
     </contact>
     <contact>
       <name>Web</name>
-      <link>http://mysupergame.pizzaburger.studio/</link>
+      <link>http://saviorsquadtowers.github.io</link>
     </contact>
   </contacts>
 

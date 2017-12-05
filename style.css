@@ -16,6 +16,10 @@ body {
 	padding:0;
 }
 
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
 
 .section{
     text-align: center;
@@ -112,11 +116,12 @@ body {
     padding:2vh 2.7vh;
     background-color: #322f30;
     margin:auto;
+    text-decoration: all;
+
 }
 .presskit:hover {
     background-color: white;
     color: black;
-    cursor: pointer;
 }
 
 .pageEnd{
@@ -170,11 +175,6 @@ body {
     background: -o-linear-gradient(#00000085, #00000000); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#00000085, #00000000); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#00000085, #00000000); /* Standard syntax */
-}
-
-a, a:visited, a:hover, a:active {
-    color: inherit;
-    text-decoration: none;
 }
 
 /*============== VIDEO ===============*/
