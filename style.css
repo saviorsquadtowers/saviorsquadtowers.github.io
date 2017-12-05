@@ -36,23 +36,24 @@ a, a:visited, a:hover, a:active {
 
 /*============== CONTENT ===============*/
 .logo {
-    height: 80vh;
+    height: 80%;
     margin: auto;
 }
 
 .play{
-	height: 22vh;
+	height: 22%;
 	align-content: center;
 }
 
-.playButton{
+.playButton {
     font-size: 130%;
     margin: auto;
-    border: 2vw solid #00000000;
+    border: 1vw solid #00000000;
     border-radius: 6vh;
     width: 32vw;
-    cursor: pointer;
     background-color: #AAEE00;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .playButton:hover
@@ -62,7 +63,7 @@ a, a:visited, a:hover, a:active {
 
 .whatIsLeft{
     width: 84%;
-    height: 16vh;
+    height: 16%;
     display: inline-block;
     text-align: left;
     padding-left: 8%;
@@ -70,24 +71,39 @@ a, a:visited, a:hover, a:active {
     color: white;
 }
 
+/* NEWSLETTER */
 .newsletter{
-    height: 14vh;
+    height: 14%;
     color: white;
     padding-left: 8%;
     padding-right: 8%;
     width: 84%;
     display: inline-block;
 }
-.newsletter-title{
-    display: inline-flex;
+.newsletter-item {
+    display: block;
+    padding: 1%;
+    text-align: center;
 }
-.newsletter-emailForm{
-    display: inline-flex;
+
+.newsletter-form {
+    display: inline-grid;
 }
 
 
+input, textarea {
+    color: white;
+    font-size: 0.9em;
+    margin: 1%;
+    background: #000000AA;
+    border: 1px solid #00000055;
+    padding: 0.5em;
+    margin-bottom: 3%;
+}
+
+/* FOOTER */
 .footer {
-    height: 10vh;
+    height: 10%;
     background-color: #292b29;
     width: 80%;
     padding-left: 10%;
@@ -125,7 +141,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .pageEnd{
-    height: 0vh;
+    height: 0%;
     background-color: #292b29;
     width: 80%;
     padding-left: 10%;
@@ -135,7 +151,7 @@ a, a:visited, a:hover, a:active {
     display: inline-block;
     text-decoration: all;
 }
-/*============== SOCIAL ICONS ===============*/
+/* SOCIAL ICONS */
 .social-icon {
     color: #fff;
     text-decoration: none;

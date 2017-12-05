@@ -17,28 +17,32 @@
 <source src="bgvideo.mp4" type="video/mp4">
 <source src="bgvideo.webm" type="video/webm">
 </video>
-<div id="polina">
 
 	<div class="section logo"><img src="imgs/logo.png" alt="WE ARE SAVIOR SQUAD!" style="max-width:100%; max-height:100%; margin: auto;"></div>
 
 	<div class="section trailer">
-		<iframe width="420px" height="315px" src="https://www.youtube.com/embed/18UBxEOFoVs" style="margin: auto;width: 60vw;height: 37vw;"></iframe>
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/18UBxEOFoVs" style="margin: auto;width: 60vw;height: 37vw;"></iframe>
 	</div>
 
 	<div class="section play">
-		<div class="playButton" onclick="window.open('https://www.airconsole.com', '_blank');">COMING ON MAY 2018, EXCLUSIVELY ON AIRCONSOLE.COM</div>
+		<div class="playButton"><a href="https://www.airconsole.com">COMING ON MAY 2018, EXCLUSIVELY ON AIRCONSOLE.COM</a></div>
 	</div>
 
 	<div class="section whatIsLeft"><h1>ABOUT THE GAME<br></h1>A special squad formed by cats are here to save the world from aliens! Unlimited players can join in that coop tower defense game where you play on your brownser and control with your smartphone!</div>
 
 	<div class="section newsletter">
-		<div class="newsletter-title"><h1>SUBSCRIBE NEXT UPDATES</div>
-		<div class="newsletter-emailForm">
-			<form method="POST" action="http://formspree.io/saviorsquadtowers@gmail.com">
-			<input type="email" name="email" placeholder="Your email">
-		  	<button type="submit">SUBSCRIBE</button>
-	</form>
-	</div>
+		<div class="newsletter-item">
+			<h1>SEND US A MESSAGE</h1>
+			Receive an email when the game releases and subscribe to next updates!
+		</div>
+		<!-- Subscribe form -->
+		<div class="newsletter-item">
+			<form class="newsletter-form" action="https://formspree.io/saviorsquadtowers@gmail.com" method="POST">
+				<input type="email" name="email" placeholder="Your email">
+				<textarea name="message" placeholder="Your message" rows="4" cols="2"></textarea>
+				<button type="submit" class="playButton" style="cursor:pointer">SUBSCRIBE</button>
+			</form>
+		</div>
 	</div>
 
 	<div class="section footer">FOLLOW THE GAME ON<br> 
