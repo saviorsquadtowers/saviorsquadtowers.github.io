@@ -4,16 +4,16 @@
 
 * {
     font-family: 'Play', sans-serif;
-    -o-transition:.3s;
-    -ms-transition:.3s;
-    -moz-transition:.3s;
-    -webkit-transition:.3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
 body {
-	margin:0;
-	padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 a, a:visited, a:hover, a:active {
@@ -21,7 +21,7 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.section{
+.section {
     text-align: center;
     width: 100%;
     background-color: #00000085;
@@ -40,9 +40,9 @@ a, a:visited, a:hover, a:active {
     margin: auto;
 }
 
-.play{
-	height: 22%;
-	align-content: center;
+.play {
+    height: 22%;
+    align-content: center;
 }
 
 .playButton {
@@ -56,10 +56,9 @@ a, a:visited, a:hover, a:active {
     padding-right: 2%;
 }
 
-.playButton:hover
-{
-    background-color: white;
-}
+    .playButton:hover {
+        background-color: white;
+    }
 
 .about {
     width: 84%;
@@ -77,7 +76,7 @@ a, a:visited, a:hover, a:active {
 }
 
 /* NEWSLETTER */
-.newsletter{
+.newsletter {
     height: 14%;
     color: white;
     padding-left: 8%;
@@ -85,6 +84,7 @@ a, a:visited, a:hover, a:active {
     width: 84%;
     display: inline-block;
 }
+
 .newsletter-item {
     display: block;
     padding: 1%;
@@ -117,35 +117,37 @@ input, textarea {
     font-size: 1.7vw;
 }
 
-.footerItem{
+.footerItem {
     margin: auto;
     border: 2px solid white;
     padding: 10px;
     color: white;
     cursor: pointer;
 }
-.footerItem:hover{
-    color: black;
-    background-color: white;
-}
 
-.followTheGame{
+    .footerItem:hover {
+        color: black;
+        background-color: white;
+    }
+
+.followTheGame {
     width: 40%;
     display: inline-flex;
 }
+
 .presskit {
-    padding:2vh 2.7vh;
-    background-color: #322f30;
-    margin:auto;
+    padding: 2vh 2.7vh;
+    background-color: #121312;
+    margin: auto;
     text-decoration: all;
-
-}
-.presskit:hover {
-    background-color: white;
-    color: black;
 }
 
-.pageEnd{
+    .presskit:hover {
+        background-color: white;
+        color: black;
+    }
+
+.pageEnd {
     height: 0%;
     background-color: #292b29;
     width: 80%;
@@ -161,46 +163,34 @@ input, textarea {
     color: #fff;
     text-decoration: none;
     font-size: 3vh;
-    padding-left: 1vw 
+    padding-left: 1vw
 }
-.social-icon:hover{    
-    color: #d9d9d9;
-    text-decoration:  underline;
-}
+
+    .social-icon:hover {
+        color: #d9d9d9;
+        text-decoration: underline;
+    }
+
 .fa-facebook {
-    padding:2vh 2.7vh;
-    background-color: #322f30;
+    padding: 2vh 2.7vh;
+    background-color: #121312;
 }
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
+
+    .fa-facebook:hover {
+        background-color: #3d5b99;
+    }
+
 .fa-youtube {
-    padding:2vh 2.7vh;
-    background-color: #322f30;
-}
-.fa-youtube:hover {
-    background-color: #e64a41;
+    padding: 2vh 2.7vh;
+    background-color: #121312;
 }
 
-/*============== MISC ===============*/
-.gradToDown{
-    background: #00000085; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#00000000, #00000085); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#00000000, #00000085); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#00000000, #00000085); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#00000000, #00000085); /* Standard syntax */
-}
-.gradToUp{
-    background: #00000000; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#00000085, #00000000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#00000085, #00000000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#00000085, #00000000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#00000085, #00000000); /* Standard syntax */
-}
+    .fa-youtube:hover {
+        background-color: #e64a41;
+    }
 
-/*============== VIDEO ===============*/
-
-video { 
+/* VIDEO */
+video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -214,10 +204,19 @@ video {
     background-size: cover;
     transition: 1s opacity;
 }
-@media screen and (max-width: 500px) { 
-    div{width:70%;} 
+
+@media screen and (max-width: 500px) {
+    div {
+        width: 70%;
+    }
 }
+
 @media screen and (max-device-width: 800px) {
-    html { background: url(imgs/bgvideoPoster.png) #000 no-repeat center center fixed; }
-    #bgvid { display: none; }
+    html {
+        background: url(imgs/bgvideoPoster.png) #000 no-repeat center center fixed;
+    }
+
+    #bgvid {
+        display: none;
+    }
 }
